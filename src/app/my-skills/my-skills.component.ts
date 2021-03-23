@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+
+import { skills } from '../skills';
 
 @Component({
   selector: 'app-my-skills',
-  templateUrl: './my-skills.component.html',
-  styleUrls: ['./my-skills.component.css']
+  template: `
+  <div class="skills text-center">
+        <img class="my-2 mx-1" *ngFor="let skill of skills" src="../../assets/images/skills/{{ skill }}.png" alt="{{skill}}" height=40>
+</div>`
 })
-export class MySkillsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class MySkillsComponent {
+  skills=skills;
 }
