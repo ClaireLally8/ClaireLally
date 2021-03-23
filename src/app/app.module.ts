@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainSectionComponent } from './main-section/main-section.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { DividerComponent } from './divider/divider.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    MainSectionComponent
+    MainSectionComponent,
+    AboutMeComponent,
+    DividerComponent
   ],
   imports: [
     BrowserModule
