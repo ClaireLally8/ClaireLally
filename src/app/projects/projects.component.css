@@ -1,0 +1,8 @@
+.project-icons{
+    color: var(--navy);
+    font-size: 2.3rem;
+  }
+  .project-icons:hover {
+    color: var(--green);
+    transition: color 0.5s ease;
+  }  
