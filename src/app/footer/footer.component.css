@@ -1,0 +1,16 @@
+.footer-background {
+    background-color: var(--navy);
+    font-family:"Nunito";
+    font-size:1.2rem;
+    }
+.footer-background a {
+      color:white;
+      text-decoration:underline;
+      line-height:1px;
+    }
+.footer-background a:hover {
+      text-decoration:none;
+    }
+.nature {
+      font-size:0.98rem;
+    }
