@@ -1,0 +1,20 @@
+<form (submit)="sendEmail($event)" class="contact-form" id="c-form">
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-12 col-md-10 col-lg-8 mt-3">
+        <input type=text name="from_email" placeholder="Email Address" class="form-control" required>
+      </div>
+      <div class="col-sm-12 col-md-10 col-lg-8 mt-4">
+        <input type="text" name="from_name" placeholder="Name" class="form-control" required>
+      </div>
+      <div class="col-sm-12 col-md-10 col-lg-8 mt-4">
+        <textarea name="message" placeholder="Message" class="form-control" required></textarea>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-6 col-md-4 col-lg-2 mt-4">
+        <button type="submit" class="btn btn-block">Submit</button>
+      </div>
+    </div>
+  </form>
+  <div>
+  </div>

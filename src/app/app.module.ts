@@ -9,6 +9,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { DividerComponent } from './divider/divider.component';
 import { MySkillsComponent } from './my-skills/my-skills.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProjectsComponent } from './projects/projects.component';
     AboutMeComponent,
     DividerComponent,
     MySkillsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule

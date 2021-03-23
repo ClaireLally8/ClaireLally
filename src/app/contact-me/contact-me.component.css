@@ -1,0 +1,9 @@
+.btn {
+    background-color: var(--green);
+    color: white;
+    }
+  .btn:hover {
+    background-color: var(--navy);
+    color: white;
+    transition: background-color 0.5s ease;
+  }
