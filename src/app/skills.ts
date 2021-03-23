@@ -1,0 +1,1 @@
+export const skills = ["html","css","javascript","typescript","python","git","vscode","github","heroku","sass","bootstrap","materialize","mdbootstrap","angular","jquery","dc.js","d3.js","flask","django","mysql", "mongodb"];
