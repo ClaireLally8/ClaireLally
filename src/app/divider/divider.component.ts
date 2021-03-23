@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-divider',
-  templateUrl: './divider.component.html',
-  styleUrls: ['./divider.component.css']
+  styleUrls: ['./divider.component.css'],
+  template: `
+  <img class="divider mt-2" alt="divider" src="../../assets/images/divider.svg">`
 })
-export class DividerComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class DividerComponent {
 }
